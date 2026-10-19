@@ -57,3 +57,7 @@ possible future layer. See the design notes in the consuming project for the ful
 ## Licence
 
 BSD-3-Clause.
+
+## Credits
+
+Built and maintained by **Remy Vaartjes** (<remy@xd.nl>) — part of the **SilverShop-Suite**.
