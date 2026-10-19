@@ -1,5 +1,5 @@
 {
-    "name": "silvershop/ledger",
+    "name": "silvershop-suite/ledger",
     "description": "An immutable financial posting ledger / audit trail for SilverShop orders and payments.",
     "type": "silverstripe-vendormodule",
     "keywords": ["silverstripe", "silvershop", "ecommerce", "audit", "ledger", "accounting"],

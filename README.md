@@ -36,13 +36,13 @@ $entry->attachDocument($invoice); // links once; a second call is a no-op
 $entry->getDocumentLabel();        // "INV-2026-00001" (the document Number, or its title) or ''
 ```
 
-The entry's CMS summary shows a **Document** column. [silvershop/invoicing](https://github.com/RVXD/silvershop-invoicing)
+The entry's CMS summary shows a **Document** column. [silvershop-suite/invoicing](https://github.com/RVXD/silvershop-invoicing)
 wires this up automatically when both modules are installed — nothing to configure.
 
 ## Installation
 
 ```bash
-composer require silvershop/ledger
+composer require silvershop-suite/ledger
 ```
 
 Then run `dev/build`, and optionally the backfill task for existing orders.
@@ -50,7 +50,7 @@ Then run `dev/build`, and optionally the backfill task for existing orders.
 ## Status
 
 Prototype (Layer A of a larger design). Magento-style Invoice / Credit-memo documents are provided by
-[silvershop/invoicing](https://github.com/RVXD/silvershop-invoicing), which references its documents from
+[silvershop-suite/invoicing](https://github.com/RVXD/silvershop-invoicing), which references its documents from
 these entries via the `Document` link above. A field-level audit layer (`Versioned` / diff table) is a
 possible future layer. See the design notes in the consuming project for the full plan.
 
